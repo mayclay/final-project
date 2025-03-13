@@ -37,7 +37,7 @@ body{
   flex-direction: row;
   align-content:center;
   justify-content:center;
-  width:90vw;
+  width:80vw;
   margin:auto;
 
 }
@@ -62,6 +62,7 @@ body{
 }
 ul{
   list-style-type: none;
+  width:90vw;
   margin: 0;
   padding: 0;
 }
