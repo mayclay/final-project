@@ -143,11 +143,7 @@ a:hover{
 div.text{
   padding:15px;
   text-align: center;
-  color:black;
-  display:none;
-}
-.imggallery:hover .text{
-  display:contents;
+  color:rgba(35, 54, 44, 0.697);
 }
 
 /* HOME PAGE IMAGE & TEXT */
