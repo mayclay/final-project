@@ -88,7 +88,7 @@ a:hover{
   justify-content: center;
   align-content:center;
   text-align:center;
-  width:25vw;
+  width:550px;
   margin:auto;
   font-family:"gotu";
   font-size:12px;
@@ -122,36 +122,32 @@ a:hover{
   display:flex;
   justify-content:center;
   flex-direction:column;
+  flex-wrap:nowrap;
   width:15vw;
   height:auto;
   margin: 20px;
   border: 1px solid #ccc;
 }
-.skillsgallery {
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
-  width:10vw;
-  height:auto;
-  margin: 20px;
-  border: 1px solid #ccc;
+.imgname{
+  padding:20px;
+  font-weight: lighter;
 }
-.skillscontainer{
-  display:flex;
-  flex-wrap:wrap;
-  width:70vw;
-  margin:auto;
-  justify-content:center;
-  align-content:center;
-}
+.imggallery:hover {
+  border: 1px solid rgba(35, 54, 44, 0.697);
+  }
 .image{
   gap:20px;
   height:auto;
   padding:10px;
-}
+  }
 div.text{
-  padding: 15px;
+  padding:15px;
   text-align: center;
+  color:black;
+  display:none;
+}
+.imggallery:hover .text{
+  display:contents;
 }
 
 /* HOME PAGE IMAGE & TEXT */
